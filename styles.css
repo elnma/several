@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 html, body{
 	font-size: 16px;
-	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-family: 'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
 	color: rgb(0,0,204);
 	background-color: floralwhite;
 	display: block;
@@ -17,11 +17,15 @@ html, body{
 }
 
 .title{
-	font-size: 2rem;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .subtitle{
-	font-size:  1.5rem;
+	font-size:  1.25rem;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .text{
@@ -29,5 +33,6 @@ html, body{
 }
 
 .contact{
-	font-size: .75rem;
+	font-size: .9rem;
+	font-family: ;
 }
