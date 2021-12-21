@@ -3,15 +3,16 @@ html, body{
 	font-size: 12px;
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 	color: rgb(0,0,204);
+	background-color: rgb(2, 2, 2);
+	display: block;
 }
 
 .content{
-	display: flex;
+
 }
 
 
 .header{
-	display: flex;
 }
 
 .title{
