@@ -8,12 +8,14 @@ html, body{
 }
 
 .content{
-	offset-distance: 9%;
+	position: relative;
+	right: 9%;
 }
 
 
 .header{
-	offset-distance: 3%;
+	position: relative;
+	right: 3%;
 }
 
 .title{
@@ -36,4 +38,5 @@ html, body{
 .contact{
 	font-size: .9rem;
 	font-weight: 250;
+	position: sticky;
 }
