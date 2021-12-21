@@ -6,14 +6,12 @@ html, body{
 }
 
 .content{
-	display: grid;
-	grid-template: repeat(40,20px) / repeat(80,20px);
+	display: flex;
 }
 
 
 .header{
-	display: grid;
-	grid-template: repeat(10,3rem) / repeat(40,120px);
+	display: flex;
 }
 
 .title{
@@ -22,14 +20,9 @@ html, body{
 
 .subtitle{
 	font-size:  2.5rem;
-	grid-column: 3/span 4;
-	grid-row: 10;
-	line-height: 120%;
 }
 
 .text{
-	font-size: 2rem;
-	grid-column: 19/span 12;
-	grid-row: 10;
+	font-size: 1.5rem;
 	line-height: 130%;
 }
