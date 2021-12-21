@@ -12,25 +12,16 @@ html, body{
 
 
 .header{
-	font-size: 3rem;
 	display: grid;
 	grid-template: repeat(10,3rem) / repeat(40,120px);
 }
 
-.source{
-	width: 34%;
-	grid-column: 5/span 18;
-	grid-row: 3;
-}
-
 .title{
-	font-size: 4rem;
-	letter-spacing: 6px;
-	grid-column: 3/span 4;
-	grid-row: 8;
+	font-size: 3rem;
 }
 
 .subtitle{
+	font-size:  2.5rem;
 	grid-column: 3/span 4;
 	grid-row: 10;
 	line-height: 120%;
