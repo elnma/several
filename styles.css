@@ -9,7 +9,7 @@ html, body{
 	display: none;
 }
 
-.bobo-content{
+.content{
 	display: grid;
 	grid-template: repeat(40,20px) / repeat(80,20px);
 }
@@ -24,75 +24,33 @@ html, body{
 	}
 }
 
-.bobo-header{
+.header{
 	font-size: 3rem;
 	display: grid;
 	grid-template: repeat(10,3rem) / repeat(40,120px);
 }
 
-.bobo-source{
+.source{
 	width: 34%;
 	grid-column: 5/span 18;
 	grid-row: 3;
 }
 
-.bobo-title{
+.title{
 	letter-spacing: 6px;
 	grid-column: 3/span 4;
 	grid-row: 8;
 }
 
-.bobo-subtitle{
+.subtitle{
 	grid-column: 3/span 4;
 	grid-row: 10;
 	line-height: 120%;
 }
 
-.bobo-text{
+.text{
 	font-size: 2rem;
 	grid-column: 19/span 12;
 	grid-row: 10;
 	line-height: 130%;
-}
-
-.bobo-frames{
-	cursor: pointer;
-	grid-column: 10/span 10;
-	grid-row: 34/span 10;
-	outline: 0;
-}
-
-.bobo-frames-active{
-	grid-column: 10/span 20;
-	grid-row: 34/span 20;
-}
-
-.bobo-frames:hover{
-	opacity: 0;
-}
-
-.bobo-letters{
-	cursor: pointer;
-	grid-column: 22/span 10;
-	grid-row: 20/span 10;
-	outline: 0;
-}
-
-.bobo-letters-active{
-	grid-column: 22/span 20;
-	grid-row: 20/span 20;
-}
-
-.bobo-letters:hover{
-	opacity: 0;
-}
-
-.bobo-frames-mobile {
-	grid-column: 9/span 10;
-	grid-row: 24/span 10;
-}
-
-.bobo-letters-mobile {
-	grid-column: 22/span 10;
-	grid-row: 10/span 10;
 }
