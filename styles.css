@@ -4,7 +4,8 @@ html, body{
 	font-family: 'Atkinson Hyperlegible', sans-serif;
 	color: rgb(0,0,204);
 	background-color: rgb(2, 2, 2);
-	display: block;
+	display: flex-direction;
+
 }
 
 .content{
