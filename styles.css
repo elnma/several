@@ -8,12 +8,12 @@ html, body{
 }
 
 .content{
-	right: 9%;
+	offset-distance: 9%;
 }
 
 
 .header{
-	right: 3%;
+	offset-distance: 3%;
 }
 
 .title{
