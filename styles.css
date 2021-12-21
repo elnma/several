@@ -5,24 +5,11 @@ html, body{
 	color: rgb(0,0,204);
 }
 
-.mo {
-	display: none;
-}
-
 .content{
 	display: grid;
 	grid-template: repeat(40,20px) / repeat(80,20px);
 }
 
-@media (max-width : 412px) {
-	.mo {
-		display: grid;
-		grid-template: repeat(40,20px) / repeat(80,20px);
-	}
-	.desk{
-		display: none;
-	}
-}
 
 .header{
 	font-size: 3rem;
