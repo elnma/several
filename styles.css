@@ -8,32 +8,36 @@ html, body{
 }
 
 .content{
+	width: 60%;
 	margin: 48px 87px 48px;
 }
 
 .header{
+	width: 60%;
 	margin: 18px 20px 10px;
 }
 
 .title{
+	width: 60%;
 	font-size: 2.2rem;
 	font-style: italic;
 	font-weight: 400;
 	font-kerning: auto;
 	margin: 12px 20px 8px;
-	opacity: 72%;
+	opacity: 80%;
 }
 
 .subtitle{
+	width: 60%;
 	font-size:  1.25rem;
 	font-style: normal;
 	font-weight: 400;
 	margin: 8px 20px 8px;
-	opacity: 72%;
+	opacity: 80%;
 }
 
-a:link{
-	
+a:link, a:visited{
+	width: 60%;
 	line-height: 32px;
 	text-decoration: none;
 	color: floralwhite;
@@ -42,26 +46,26 @@ a:link{
 	opacity: 72%;
 }
 
-a:visited{
-	text-decoration: none;
-	color: floralwhite;
-	font-size: 1rem;
-	font-weight: 400;
-	opacity: 20%;
-}
-
-
 a:hover, a:active{
 	cursor: pointer;
-	color: moccasin;
-	opacity: 88%;
+	color: cornflowerblue;
+	opacity: 96%;
 }
 
 .contact{
 	display: inline-flex;
-	font-size: .84rem;
+	width: 60%;
+	font-size: .88rem;
 	font-weight: 400;
 	margin: 120px 20px 8px;
+	opacity: 72%;
+}
+
+.display{
+	position: fixed;
+	top: 96px;
+	right: 16%;
+	opacity: 80%;
 }
 
 .email{
