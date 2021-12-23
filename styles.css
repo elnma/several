@@ -4,36 +4,39 @@ html, body{
 	font-family: 'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
 	color: floralwhite;
 	background-color: rgb(0,0,204);
-	display: block;
-}
-
-.content{
-	width: 60%;
-	margin: 48px 87px 48px;
+	display: grid;
+	grid-template-columns: repeat(2,640px);
+	grid-template-rows: 1fr 96px;
+	gap: 12px;
 }
 
 .header{
-	width: 60%;
+	grid-column: 1;
 	margin: 18px 20px 10px;
 }
 
 .title{
-	width: 60%;
+	grid-column: 1;
 	font-size: 2.2rem;
 	font-style: italic;
 	font-weight: 400;
 	font-kerning: auto;
-	margin: 12px 20px 8px;
+	margin: 12px 24px 0px;
 	opacity: 80%;
 }
 
 .subtitle{
-	width: 60%;
+	grid-column: 1;
 	font-size:  1.25rem;
 	font-style: normal;
 	font-weight: 400;
 	margin: 8px 20px 8px;
 	opacity: 80%;
+}
+.content{
+	grid-column: 1;
+	display: block;
+	margin: 48px 87px 48px;
 }
 
 a:link, a:visited{
@@ -52,23 +55,36 @@ a:hover, a:active{
 	opacity: 96%;
 }
 
+.display{
+	grid-column: 2;
+	display: block;
+}
+
+.slides{
+	position: fixed;
+	top: 121px;
+	font-size: .64rem;
+	line-height: .8rem;
+	opacity: 36%;
+}
+
+.super{
+	font-size: .42rem;
+}
+
 .contact{
+	grid-column: 1;
+	grid-row: 2;
 	display: inline-flex;
-	width: 60%;
+	position: fixed;
+	bottom: 0;
 	font-size: .88rem;
 	font-weight: 400;
-	margin: 120px 20px 8px;
+	margin: 0px 24px 0px;
 	opacity: 72%;
 }
 
-.display{
-	position: fixed;
-	top: 96px;
-	right: 16%;
-	opacity: 80%;
-}
-
-.email{
+.message{
 	font-family: 'Times New Roman',serif;
 	font-style: italic;
 }
