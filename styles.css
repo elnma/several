@@ -99,3 +99,36 @@ a:hover, a:active{
 	font-family: 'Times New Roman',serif;
 	font-style: italic;
 }
+
+.slidingtext{
+	display:inline-flex;
+  	flex-wrap: nowrap;
+  	white-space: nowrap;
+ 	width: 100%;
+ 	overflow: hidden;
+}
+
+.note{
+  display: inline-flex;
+  font-size: .88rem;
+  font-weight: 400;
+  flex-shrink: 1;
+  height: 50px;
+  align-items: left;
+  animation: slide-left 240s linear infinite;
+  background: none;
+  position: fixed;
+  right: -2840px;
+  bottom: 16px;
+  opacity: 72%;
+}
+
+  @keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%);
+  }
