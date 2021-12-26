@@ -118,7 +118,7 @@ a:hover, a:active{
   animation: slide-left 240s linear infinite;
   background: none;
   position: fixed;
-  right: -2840px;
+  right: -2800px;
   bottom: 16px;
   opacity: 72%;
 }
