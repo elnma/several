@@ -4,6 +4,7 @@ html, body{
 	font-family: 'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
 	color: rgb(0,0,204);
 	background-color: floralwhite;
+	min-width: 100vw;
 	display: grid;
 	grid-template-columns: 360px 1fr;
 	gap: 12px;
@@ -46,6 +47,13 @@ html, body{
 	margin: 36px 36px 0px;
 }
 
+.responsive{
+	width: 54%;
+ 	max-width: 640px;
+ 	min-width: 360px;
+	height: auto;
+}
+
 .return{
 	grid-column: 1;
 	position: fixed;
@@ -75,6 +83,11 @@ a:hover, a:active{
 .text{
 	position: fixed;
 	margin: 12px 0 0;
+}
+
+span.tag{
+	font-size: .64rem;
+	
 }
 
 .caption{

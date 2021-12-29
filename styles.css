@@ -4,9 +4,12 @@ html, body{
 	font-family: 'Atkinson Hyperlegible', 'Helvetica', 'Arial', sans-serif;
 	color: floralwhite;
 	background-color: rgb(0,0,204);
+	min-width: 100vw;
 	display: grid;
-	grid-template-columns: repeat(2,640px);
+	grid-template-columns: minmax(640px, 2fr) 3fr;
 	gap: 12px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .header{
@@ -72,7 +75,7 @@ a:hover, a:active{
 	display: block;
 }
 
-.slides{
+.image{
 	position: fixed;
 	top: 108px;
 	font-size: .64rem;
@@ -95,40 +98,37 @@ a:hover, a:active{
 	opacity: 72%;
 }
 
-.message{
+span.message{
 	font-family: 'Times New Roman',serif;
 	font-style: italic;
 }
 
 .slidingtext{
+	position: fixed;
 	display:inline-flex;
-  	flex-wrap: nowrap;
-  	white-space: nowrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
  	width: 100%;
  	overflow: hidden;
+ 	margin-left: 36px;
+ 	bottom: 16px;
 }
 
 .note{
-  display: inline-flex;
   font-size: .88rem;
   font-weight: 400;
-  flex-shrink: 1;
   height: 50px;
-  align-items: left;
-  animation: slide-left 240s linear infinite;
+  animation: slide-left 120s linear infinite;
   background: none;
-  position: fixed;
-  right: -2800px;
-  bottom: 16px;
   opacity: 72%;
 }
 
   @keyframes slide-left {
   from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(105vw);
+            transform: translateX(105vw);
   }
   to {
-    -webkit-transform: translateX(-300%);
-            transform: translateX(-300%);
+    -webkit-transform: translateX(-300vw);
+            transform: translateX(-300vw);
   }
