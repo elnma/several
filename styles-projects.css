@@ -8,6 +8,8 @@ html, body{
 	display: grid;
 	grid-template-columns: 360px 1fr;
 	gap: 12px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .header{
@@ -47,9 +49,16 @@ html, body{
 	margin: 36px 36px 0px;
 }
 
-.responsive{
+.responsive-square{
 	width: 54%;
  	max-width: 640px;
+ 	min-width: 360px;
+	height: auto;
+}
+
+.responsive-rectangle{
+	width: 54%;
+ 	max-width: 880px;
  	min-width: 360px;
 	height: auto;
 }
@@ -58,6 +67,8 @@ html, body{
 	grid-column: 1;
 	position: fixed;
 	bottom: 12px;
+	font-size: 2rem;
+	opacity: 72%;
 	margin: 0px 36px 0px;
 }
 
@@ -65,7 +76,7 @@ a:link, a:visited{
 	display: inline-flex;
 	text-decoration: none;
 	color: rgb(0,0,204);
-	font-size: .88rem;
+	font-size: .9rem;
 	font-weight: 400;
 	opacity: 72%;
 	transition: .5s;
@@ -75,7 +86,7 @@ a:hover, a:active{
 	display: inline-flex;
 	text-decoration: none;
 	color: cornflowerblue;
-	font-size: .88rem;
+	font-size: .9rem;
 	font-weight: 400;
 	opacity: 72%;
 }

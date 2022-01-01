@@ -118,7 +118,7 @@ span.message{
   font-size: .88rem;
   font-weight: 400;
   height: 50px;
-  animation: slide-left 120s linear infinite;
+  animation: slide-left 280s linear infinite;
   background: none;
   opacity: 72%;
 }
@@ -129,6 +129,6 @@ span.message{
             transform: translateX(105vw);
   }
   to {
-    -webkit-transform: translateX(-300vw);
-            transform: translateX(-300vw);
+    -webkit-transform: translateX(-360vw);
+            transform: translateX(-360vw);
   }
